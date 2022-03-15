@@ -2,10 +2,11 @@
   "name": "nodejs-ts",
   "version": "1.0.0",
   "description": "Node Js docker ts",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "ts-node-dev --ignore-watch node_modules index.ts",
+    "start:nodemon": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Deniem",
