@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Node Js docker ts",
   "main": "index.ts",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "ts-node-dev --ignore-watch node_modules index.ts",
     "start:nodemon": "nodemon",
